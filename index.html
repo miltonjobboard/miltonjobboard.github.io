@@ -44,8 +44,18 @@
 
 
 		
-		<div>
-			{{ 10 * 5 | currency}}
+		<div ng-controller="DemoController">
+			{{ counter | currency}}
+			<div>
+			<button ng-click= "add(.01)" class = "button">Penny</button>
+			<button ng-click= "add(.05)" class = "button">Nickel</button>
+			<button ng-click= "add(.1)" class = "button">Dime</button>
+			<button ng-click= "add(.25)" class = "button">Quarter</button>
+			<button ng-click= "add(1)" class = "button">Dollar</button>
+			</div>
+			<div>
+			<button ng-click="reset()" class = "button">Reset </button>
+			</div>
 		</div>
 	</div>
 	
