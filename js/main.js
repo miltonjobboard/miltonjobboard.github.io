@@ -1,11 +1,11 @@
 var app = angular.module('myApp', []);
 app.run(function($rootScope) {
-	$rootScope.name="Pranav Manem";
+	$rootScope.name="Name";
 	});
 	
 app.controller('MyController', function($scope) {
 	$scope.person= {
-		name: "Pranav Manem"
+		name: "Name"
 		};
 	var updateClock = function() {
 		$scope.clock = new Date();
