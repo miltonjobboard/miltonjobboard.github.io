@@ -24,6 +24,10 @@ app.controller('ChildController', function($scope) {
 	$scope.sayHello = function() {
 	$scope.person.greeted = true;
 	}
+	$scope.sayBye = function() {
+	$scope.person.greeted = false;
+	}
+	
 });
 
 
@@ -31,8 +35,9 @@ app.controller('ChildController', function($scope) {
 app.controller('PlayerController', ['$scope', function($scope) {
 	$scope.playing = false;
 	$scope.audio = document.createElement('audio');
-	$scope.audio.src = '/media/npr.mp4';
+	$scope.audio.src = '/media/npr.m4a';
 	$scope.play = function() {
+		$scope.audio.play();
 		$scope.playing= true;
 	};
 	$scope.stop = function() {

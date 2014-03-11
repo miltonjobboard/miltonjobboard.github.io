@@ -13,9 +13,10 @@
 		<div ng-controller="MyController">
 		{{ person.name}}
 			<div ng-controller="ParentController">
-			<div ng-controller="ChildController">
-			<input type="text" ng-model="person.name" placeholder="Name"></input>
-			<button ng-click=sayHello()>Say Hello</button>
+				<div ng-controller="ChildController">
+					<input type="text" ng-model="person.name" placeholder="Name"></input>
+					<button ng-click=sayHello()>Say Hello</button>
+					<button ng-click=sayBye()>Say Goodbye</button>
 				</div>
 			{{ person }}
 			</div>
