@@ -23,9 +23,11 @@ app.controller('ParentController', function($scope) {
 app.controller('ChildController', function($scope) {
 	$scope.sayHello = function() {
 	$scope.person.greeted = true;
+	alert("Hello");
 	}
 	$scope.sayBye = function() {
 	$scope.person.greeted = false;
+	alert ("Goodbye");
 	}
 	
 });
