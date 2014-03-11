@@ -15,7 +15,7 @@
 			<div ng-controller="ParentController">
 			<div ng-controller="ChildController">
 			<input type="text" ng-model="person.name" placeholder="Name"></input>
-			<a ng-click=sayHello()>Say Hello</a>
+			<button ng-click=sayHello()>Say Hello</button>
 				</div>
 			{{ person }}
 			</div>
@@ -47,14 +47,14 @@
 		<div ng-controller="DemoController">
 			{{ counter | currency}}
 			<div>
-			<button ng-click= "add(.01)" class = "button">Penny</button>
-			<button ng-click= "add(.05)" class = "button">Nickel</button>
-			<button ng-click= "add(.1)" class = "button">Dime</button>
-			<button ng-click= "add(.25)" class = "button">Quarter</button>
-			<button ng-click= "add(1)" class = "button">Dollar</button>
+				<button ng-click= "add(.01)" class = "button">Penny</button>
+				<button ng-click= "add(.05)" class = "button">Nickel</button>
+				<button ng-click= "add(.1)" class = "button">Dime</button>
+				<button ng-click= "add(.25)" class = "button">Quarter</button>
+				<button ng-click= "add(1)" class = "button">Dollar</button>
 			</div>
 			<div>
-			<button ng-click="reset()" class = "button">Reset </button>
+				<button ng-click="reset()" class = "button">Reset </button>
 			</div>
 		</div>
 	</div>
