@@ -10,6 +10,8 @@
 	<div ng-app="embeddedApp">
 		<h3>Inside an AngularJS app</h3>	
 		
+		<b ng-init='name = "Name"'>Hello, {{ name }}</b>
+		
 		<div ng-controller="MyController">
 		{{ person.name}}
 			<div ng-controller="ParentController">
@@ -58,6 +60,9 @@
 				<button ng-click="reset()" class = "button">Reset </button>
 			</div>
 		</div>
+		
+		
+
 	</div>
 	
 	
