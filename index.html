@@ -68,7 +68,18 @@
 		<div ng-hide="shouldShow">
 			<h3>Hiding {{ shouldShow }}</h3>
 		</div>
-
+		
+		<div ng-controller="PlayerController3">
+			<ul>
+				<li ng-repeat="person in roommates">{{ person.name }}</li>
+			</ul>
+			
+			<ul>
+				<li ng-repeat="(name, color) in people">{{ name }}'s favorite color is {{ color }}
+				</li>
+			</ul>
+		</div>
+		
 	</div>
 	
 	

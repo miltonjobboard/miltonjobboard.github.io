@@ -80,4 +80,17 @@ app.controller('PlayerController2', function($scope, $http) {
 	
 	});
 });
-	
+
+app.controller('PlayerController3', function($scope, $http) {
+	$scope.roommates = [
+	  { name: 'Ari'},
+	  { name: 'Q'},
+	  { name: 'Sean'},
+	  { name: 'Anand'}
+	];
+	$scope.people = {
+		'Ari': 'orange',
+		'Q': 'purple',
+		'Sean': 'green'
+	}
+});
