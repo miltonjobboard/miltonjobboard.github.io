@@ -86,11 +86,13 @@ app.controller('PlayerController3', function($scope, $http) {
 	  { name: 'Ari'},
 	  { name: 'Q'},
 	  { name: 'Sean'},
-	  { name: 'Anand'}
+	  { name: 'Bernie'}
 	];
 	$scope.people = {
 		'Ari': 'orange',
 		'Q': 'purple',
-		'Sean': 'green'
+		'Sean': 'green',
+		'Bernie': 'black'
+		
 	}
 });
