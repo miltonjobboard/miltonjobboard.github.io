@@ -37,7 +37,7 @@ app.controller('ChildController', function($scope) {
 app.controller('PlayerController', ['$scope', function($scope) {
 	$scope.playing = false;
 	$scope.audio = document.createElement('audio');
-	$scope.audio.src = 'js/media/npr.m4a';
+	$scope.audio.src = 'js/media/npr.mp3';
 	$scope.play = function() {
 		$scope.audio.play();
 		$scope.playing= true;
