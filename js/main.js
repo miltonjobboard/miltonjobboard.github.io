@@ -41,6 +41,7 @@ app.controller('PlayerController', ['$scope', function($scope) {
 	$scope.play = function() {
 		$scope.audio.play();
 		$scope.playing= true;
+		alert("moo");
 	};
 	$scope.stop = function() {
 		$scope.audio.pause();
