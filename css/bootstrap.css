@@ -8,11 +8,42 @@
 
 html {
   font-family: sans-serif;
+  
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+	  
+   height = 3000px
+
+   font-size: 62.5%;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: black;
+  height = 200px;
+  background: transparent;
+  	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E02828),
+	color-stop(0.94, #FFFFFF)
+	);
+background-image: -o-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
+background-image: -moz-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
+background-image: -webkit-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
+background-image: -ms-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
+background-image: linear-gradient(to bottom, #E02828 0%, #FFFFFF 94%);
+background-repeat:no-repeat;
+background-attachment: fixed;
+
+}
+.navbar-default {
+  background-color: #f9f9f9;
+  border-color: #e7e7e7;
 }
 article,
 aside,
@@ -268,18 +299,8 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
 
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
+
 input,
 button,
 select,
@@ -3938,10 +3959,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
-.navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
+
 .navbar-default .navbar-brand {
   color: #777;
 }
