@@ -24,25 +24,23 @@ body {
   line-height: 1.42857143;
   color: black;
   height = 200px;
-  background: transparent;
-  	background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #E02828),
-	color-stop(0.94, #FFFFFF)
-	);
-background-image: -o-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
-background-image: -moz-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
-background-image: -webkit-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
-background-image: -ms-linear-gradient(bottom, #E02828 0%, #FFFFFF 94%);
-background-image: linear-gradient(to bottom, #E02828 0%, #FFFFFF 94%);
-background-repeat:no-repeat;
-background-attachment: fixed;
+  background: #CCCCCC
+
 
 }
 .navbar-default {
-  background-color: #f9f9f9;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right top,
+	color-stop(0, #FE0E18),
+	color-stop(1, #FF5E5E)
+);
+background-image: -o-linear-gradient(right, #FE0E18 0%, #FF5E5E 100%);
+background-image: -moz-linear-gradient(right, #FE0E18 0%, #FF5E5E 100%);
+background-image: -webkit-linear-gradient(right, #FE0E18 0%, #FF5E5E 100%);
+background-image: -ms-linear-gradient(right, #FE0E18 0%, #FF5E5E 100%);
+background-image: linear-gradient(to right, #FE0E18 0%, #FF5E5E 100%);
   border-color: #e7e7e7;
 }
 article,
@@ -3667,7 +3665,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+ /* border: 1px solid transparent; */
 }
 @media (min-width: 768px) {
   .navbar {
@@ -3764,8 +3762,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
   line-height: 20px;
+
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -3963,18 +3963,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #777;
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #FFF;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
