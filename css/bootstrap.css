@@ -7,7 +7,7 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
 html {
-  font-family: sans-serif;
+  font-family: Helvetica;
   
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -3773,8 +3773,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 20px;
 
 }
