@@ -2013,6 +2013,8 @@ select[multiple].input-lg {
   right: 15px;
 }
 .btn {
+	height:200px;
+	width: 100%;
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
