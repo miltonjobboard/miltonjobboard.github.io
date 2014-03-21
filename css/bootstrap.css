@@ -17,6 +17,8 @@ html {
    font-size: 62.5%;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
+  
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5152,7 +5154,18 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #77EFFF;
+  background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #F7F9FF),
+	color-stop(1, #77EFFF)
+);
+background-image: -o-linear-gradient(top, #F7F9FF 0%, #77EFFF 100%);
+background-image: -moz-linear-gradient(top, #F7F9FF 0%, #77EFFF 100%);
+background-image: -webkit-linear-gradient(top, #F7F9FF 0%, #77EFFF 100%);
+background-image: -ms-linear-gradient(top, #F7F9FF 0%, #77EFFF 100%);
+background-image: linear-gradient(to top, #F7F9FF 0%, #77EFFF 100%);
   background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
