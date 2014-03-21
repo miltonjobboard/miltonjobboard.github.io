@@ -42,28 +42,67 @@
 </nav>
 
 	<div class="container" style="display: block; " >
-		<form role="form">
+		<form role="form" class="adForm">
+			  <div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+			  </div>
 			  <div class="form-group">
 				<label for="exampleInputEmail1">Email address</label>
 				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 			  </div>
 			  <div class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				<label for="phone">Phone Number</label>
+				<input type="phone" class="form-control" id="phone" placeholder="Enter Contact Phone Number">
 			  </div>
 			  <div class="form-group">
-				<label for="exampleInputFile">File input</label>
-				<input type="file" id="exampleInputFile">
-				<p class="help-block">Example block-level help text here.</p>
+				<label for="company">Company Name</label>
+				<input type="text" class="form-control" id="company" placeholder="Enter Company Name">
 			  </div>
-			  <div class="checkbox">
+			  <label>Category of Advertisement</label>
+			  <div class="radio">
 				<label>
-				  <input type="checkbox"> Check me out
+					<input type="radio" name="adtype" id="jobInternship" value="option1" checked>
+						Job or Internship
 				</label>
 			  </div>
+			  <div class="radio">
+				<label>
+					<input type="radio" name="adtype" id="SummerOpportunity" value="option2" checked>
+						Summer Opportunity
+				</label>
+			  </div>
+			  <div class="radio">
+				<label>
+					<input type="radio" name="adtype" id="Other" value="option3" checked>
+						Other
+				</label>
+			  </div>
+			  <div class="form-group">
+				<label for="title">Title</label>
+				<input type="text" class="form-control" id="title" placeholder="Enter Company Title">
+			  </div>
+			  <div class="form-group">
+				<label>Description</label>
+				<textarea class="form-control" rows="6" placeholder="Add description of job, internship, or opportunity"></textarea>
+			  </div>
+			  <div class="form-group">
+				<label>Requirements</label>
+				<textarea class="form-control" rows="6" placeholder="Add Requirements to Apply"></textarea>
+			  </div>
+			  <div class="form-group">
+				<label>How to Apply</label>
+				<textarea class="form-control" rows="4" placeholder="Description of How to Apply"></textarea>
+			  </div>
+			  <div class="form-group">
+				<label for="logo">Logo</label>
+				<input type="text" class="form-control" id="logo" placeholder="Add link to Company Logo">
+			  </div>
+
+			  
 			  <button type="submit" class="btn btn-default">Submit</button>
 		</form>
-		<iframe src="https://docs.google.com/forms/d/1dGZ9RO_l2qIde3Mlal_J4uRwvK8VtAVOu_8yBi3yA3M/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<!--<iframe src="https://docs.google.com/forms/d/1dGZ9RO_l2qIde3Mlal_J4uRwvK8VtAVOu_8yBi3yA3M/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
