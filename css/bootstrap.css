@@ -3765,6 +3765,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  margin-bottom:20px;
 }
 .navbar-fixed-bottom {
   bottom: 0;
