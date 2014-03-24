@@ -30,6 +30,17 @@ body {
 
 
 }
+.job-button{
+ background-size: 50%;
+ background-repeat: no-repeat;
+ background-position: top center;
+ height: 300px; 
+
+ }
+ .btn-text{
+ opacity:1;
+ }
+ 
 .navbar-default {
 background-image: -webkit-gradient(
 	linear,
