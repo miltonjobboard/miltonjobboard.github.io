@@ -5223,7 +5223,7 @@ background-image: linear-gradient(to bottom, #FCC0C0 0%, #FFF5FD 100%);
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 0px 20px 0px 20px;
 }
 .modal-footer {
   padding: 19px 20px 20px;
