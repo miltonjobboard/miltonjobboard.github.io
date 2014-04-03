@@ -3706,7 +3706,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
  /* border: 1px solid transparent; */
 }
 @media (min-width: 768px) {
@@ -3808,6 +3808,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 20px;
   font-weight: 600;
   line-height: 20px;
+  border-right: 3px solid; 
 
 }
 .navbar-brand:hover,
@@ -5225,8 +5226,7 @@ button.close {
   padding: 19px 20px 20px;
   margin-top: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
-  background-color: #FF8989;
+  background-color: white;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;
