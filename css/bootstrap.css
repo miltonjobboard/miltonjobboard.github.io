@@ -2058,7 +2058,7 @@ select[multiple].input-lg {
           user-select: none;
   
   border: 1px solid transparent;
-  border-radius: 4px;
+
 background-image: -webkit-gradient(
 	linear,
 	left bottom,
@@ -5206,7 +5206,7 @@ button.close {
   min-height: 16.42857143px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
-  background-color: #FF8989;
+  background-color: #FFB0B0;
 }
 .modal-header .close {
   margin-top: -2px;
