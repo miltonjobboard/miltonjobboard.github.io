@@ -1,7 +1,7 @@
 miltonjobboard.github.io
 ========================
 
-Milton jobs board
+Milton Job Board
 
 Adding a new advertisement
 	1) Copy lines below. Everything that needs to be edited are in square brackets [].
