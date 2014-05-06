@@ -2,8 +2,9 @@
 
 function createAd()
 {
-		var numAds= 
-
+		
+		var numAds= 7;
+		document.write('<center> <font size=2 face=verdana> Page created by: ');
 		for (i=0; i<numAds; i++)
 		{
 			var modalNumber=i;
@@ -17,15 +18,16 @@ function createAd()
 			var email=
 			var website=
 			
+		
 			document.write(
 			
-				<div class="col-lg-4 col-md-4 col-sm-4" style="display: block;">
+				'<div class="col-lg-4 col-md-4 col-sm-4" style="display: block;">
 					<div class="panel" style="display: block;" >		
 							<div align=center class="buttons" style="display: block;"> 
-								<a class="btn btn-lg btn-default job-button" style = "background-image: url('+backgroundImage+');" data-toggle="modal" data-target="#Modal+modalNumber+" >
+								<a class="btn btn-lg btn-default job-button" style = "background-image: url(''+backgroundImage+'');" data-toggle="modal" data-target="#Modal'+modalNumber'+" >
 								<div >
 									<h4 class = "btn-text" style="position:relative; top: 190px;">
-										+company+
+										'+company+'
 									</h4>
 								</div>
 								</a>						
@@ -37,20 +39,20 @@ function createAd()
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-									<h2 class="modal-title" id="myModalLabel">+jobTitle+</h2><!--Popup Header-->
+									<h2 class="modal-title" id="myModalLabel">'+jobTitle+'</h2>
 								</div>
 								<div class="modal-body">
 									<h3>Description</h3><
-										<p> +description+</p>
+										<p> '+description+'</p>
 									<h3>Requirements</h3>
-									+requirments+
-									<h3>How to Apply</h3><!--Apply-->
-										<p>+apply+</p>
-									<h3>Contact</h3><!--Contact-->
-											<p>+company+
-											</br>Phone: +phone+
-											</br>Address: +address+
-											</br>Website: <a href="+website+" target="_blank">Website</a>
+									'+requirements+'
+									<h3>How to Apply</h3>
+										<p>'+apply+'</p>
+									<h3>Contact</h3>
+											<p>'+company+'
+											</br>Phone: '+phone+'
+											</br>Address: '+address+'
+											</br>Website: <a href="'+website+'" target="_blank">Website</a>
 										</p>						
 								</div>
 								<div class="modal-footer">
@@ -58,8 +60,7 @@ function createAd()
 								</div>
 							</div>
 						</div>
-					</div>	
-			
+					</div>'
+				)
 			}
 		}
-}
