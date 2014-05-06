@@ -1,0 +1,63 @@
+/*
+ * Created by Jonathan Jemson
+ */
+.navbar-default, .navbar-default .navbar-brand {
+    background-color: #ff3134;
+    color: white;
+}
+.navbar-default .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    border-right: 3px solid;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    background-color: #e14141;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #eec1c0;
+    color: #9f1f24;
+}
+.job-button {
+    background-size: 45%;
+    background-repeat: no-repeat;
+     
+    background-position: center 30%;
+    height: 250px;
+
+}
+.btn-text {
+    opacity:1;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid red;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 0px;
+    width: 100%;
+}
+.modal-header {
+    background-color: #ffcccc;
+}
+.modal, .modal-footer, .modal-content {
+    border-radius: 0px;
+}
+button.btn.btn-default.btn-close-modal {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 1px;
+}

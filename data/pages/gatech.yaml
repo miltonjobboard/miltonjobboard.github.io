@@ -1,0 +1,11 @@
+name: Georgia Tech
+title: Georgia Tech Summer Camps
+job_desc: "We have opened registration for our computing summer camps at Georgia Tech. We are offering twelve one-week sessions. We have sessions for elementary (rising 4th-6th), middle school(rising 6th - 8th) and high school (rising 9th to college freshmen). We have a camp for high school students who have some prior programming experience in Java to teach them how to create Android apps in Java."
+requirements:
+  - "Rising elementary, middle, or high school student."
+howtoapply: |
+  See website at <a href="http://coweb.cc.gatech.edu/ice-gt/2271" target="_blank">coweb.cc.gatech.edu</a>
+contact:
+  company: Georgia Institute of Technology
+  website:
+    url: "http://coweb.cc.gatech.edu"

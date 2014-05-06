@@ -1,0 +1,26 @@
+# # Template for YAML Job Descriptions
+# # YAML strings do not need quotes ("") unless:
+# #   * it contains a dash (-), comma(,) or colon (:)
+# # If your YAML contains quotes, you may be better off using the
+# # |
+# # The pipe (|) indicates a multiline block
+# #
+# # NOTE: If the pipe appears on an indented block,
+# # you need to end it as shown below in address.
+#
+# name: Company Name
+# job_desc: Job Description goes here
+# requirements:
+#   - 3.0 GPA
+#   - Involved in extracurricular activities.
+#   - CPR and life Guard Certified by April 2014
+# howtoapply: Apply online at www.usamanagement.com or call (877) 248-1872.
+# contact:
+#   company: USA Management
+#   name: Contact Name
+#   phone: (877) 248-1872
+#   address: 1073 Green Street Roswell, GA 30075
+#   website:
+#     url: "http://www.usamanagement.com"
+#     display_name: "http://www.usamanagement.com"
+#   other: "We also have Facebook, Twitter, Pinterest, and Instagram pages"

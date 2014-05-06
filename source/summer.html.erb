@@ -1,0 +1,6 @@
+---
+navigation_id: summer
+---
+<% data.companies.summer_postings.each do |c| %>
+    <%= partial("partials/buttonModal", :locals => {"company" => c}) %>
+<% end %>

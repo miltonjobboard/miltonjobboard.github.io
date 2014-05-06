@@ -1,0 +1,22 @@
+# Every post must have a unique
+# name listed below
+
+# In the folder: data/pages
+# create a file identifier.yaml
+
+jobs_postings: # Postings for the main page
+  - usamgmt
+  - playtabase
+  - atlnatlgolf
+  - primrose
+  - studentdriver
+  - amspools
+  - swimatl
+  - unitedintent
+  - gmvoices
+  - atria
+  
+summer_postings: # Postings for the summer page
+  - gatech
+  - taged
+  - makegames

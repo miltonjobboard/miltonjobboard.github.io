@@ -1,0 +1,7 @@
+---
+title: Milton Job Board
+navigation_id: index
+---
+<% data.companies.jobs_postings.each do |c| %>
+    <%= partial("partials/buttonModal", :locals => {"company" => c}) %>
+<% end %>
