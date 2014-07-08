@@ -53,6 +53,8 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
+set :relative_links, true
+
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
